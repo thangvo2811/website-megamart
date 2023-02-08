@@ -1,0 +1,88 @@
+.footer-container {
+  padding-top: 100px;
+}
+.container {
+  background: #008ecc;
+  margin: 0 auto;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px 0px;
+  color: #fff;
+  &__left {
+    &__name {
+      font-size: 48px;
+      font-weight: 500;
+    }
+    &__contact {
+      padding-top: 40px;
+      padding-bottom: 20px;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    &__app {
+      display: flex;
+      padding: 10px 0px;
+      &__content {
+        padding-left: 10px;
+        font-weight: 300;
+        font-size: 16px;
+      }
+    }
+    &__down {
+      &__text {
+        padding: 10px 0px;
+        font-weight: 400;
+        font-size: 20px;
+      }
+      &__app {
+        &__app-android {
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  &__middle {
+    &__name {
+      border-bottom: 3px solid #ffffff;
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 10px;
+      padding-top: 17px;
+    }
+    &__items {
+      padding-top: 12px;
+      li {
+        padding: 10px 0px;
+        font-weight: 300;
+      }
+    }
+  }
+  &__right {
+    &__name {
+      border-bottom: 3px solid #ffffff;
+      font-weight: 600;
+      font-size: 20px;
+      padding-bottom: 10px;
+      padding-top: 17px;
+    }
+    &__items {
+      padding-top: 12px;
+      li {
+        padding: 10px 0px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.footer-bottom {
+  border-top: 1px solid #05abf3;
+  &__text {
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    padding: 40px 0;
+    text-align: center;
+  }
+}

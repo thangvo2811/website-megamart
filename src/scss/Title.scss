@@ -1,0 +1,41 @@
+.title {
+  padding-top: 120px;
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__item {
+      border-bottom: 3px solid #008ecc;
+      &__name {
+        color: rgba(102, 102, 102, 1);
+        font-weight: 700;
+        font-size: 24px;
+        padding-bottom: 16px;
+        span {
+          color: rgba(0, 142, 204, 1);
+        }
+      }
+    }
+
+    &__view {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &__text {
+        color: rgba(34, 34, 34, 1);
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 6px;
+      }
+      &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 142, 204, 1);
+      }
+    }
+  }
+}

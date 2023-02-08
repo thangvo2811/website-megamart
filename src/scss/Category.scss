@@ -1,0 +1,37 @@
+.category-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+  width: 100%;
+  gap: 10px;
+}
+
+.category {
+  padding: 10px;
+  &-card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s linear;
+    background: #f3f9fb;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 12px 8px;
+    &__name {
+      padding-right: 6px;
+    }
+    &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  &-card:hover {
+    background: #008ecc;
+    color: #fff;
+  }
+}

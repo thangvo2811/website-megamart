@@ -1,0 +1,46 @@
+.brand-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 10px;
+}
+.brand {
+  padding-top: 20px;
+  &__content {
+    background: #313131;
+    max-height: 210px;
+    min-width: 410px;
+    border-radius: 16px;
+    &__desc {
+      display: flex;
+      justify-content: space-between;
+      max-height: 210px;
+      &__left {
+        padding: 20px;
+
+        &__text {
+          max-width: 100px;
+          background: #494949;
+          color: #ffff;
+          text-align: center;
+          border-radius: 10px;
+          font-weight: 300;
+          margin-bottom: 20px;
+          padding: 4px 0px;
+        }
+
+        &__sales {
+          color: #ffff;
+          font-size: 24px;
+          font-weight: 600;
+          margin-top: 20px;
+        }
+      }
+      &__right {
+        max-height: 100%;
+        img {
+        }
+      }
+    }
+  }
+}

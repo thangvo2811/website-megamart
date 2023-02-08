@@ -1,0 +1,103 @@
+.menu-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  &__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 48px;
+      color: #008ecc;
+    }
+    &__text {
+      font-size: 24px;
+      color: #008ecc;
+    }
+  }
+  &__middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 32px;
+    &__box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      padding: 8px;
+      border-radius: 9px;
+      background-color: #ededed;
+
+      &__input {
+        display: flex;
+        gap: 10px;
+
+        &__search {
+          color: #008ecc;
+          font-size: 24px;
+        }
+        .text-input {
+          border: none;
+          min-width: 500px;
+          background-color: #ededed;
+        }
+        .text-input:focus {
+          outline: none;
+        }
+        &__list {
+          color: #008ecc;
+          font-size: 24px;
+        }
+      }
+    }
+    &__user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+
+      &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #008ecc;
+        font-size: 24px;
+      }
+      &__text {
+        a {
+          text-decoration: none;
+          color: #333232;
+        }
+      }
+    }
+    &__line {
+      border: 1px solid #cccc;
+      height: 20px;
+    }
+    &__cart {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #008ecc;
+        font-size: 24px;
+      }
+      &__text {
+        a {
+          text-decoration: none;
+          color: #333232;
+        }
+      }
+    }
+  }
+}
